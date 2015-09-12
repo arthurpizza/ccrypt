@@ -1,12 +1,10 @@
 Peter Selinger: ccrypt [ ![](images/software.gif)
 ](http://www.mathstat.dal.ca/~selinger/software.html) [
-![\[home\]](images/PS05.gif) ](http://www.mathstat.dal.ca/~selinger/)  
+http://www.mathstat.dal.ca/~selinger/
 
 # ccrypt
 
 Secure encryption and decryption of files and streams
-
-  
 
 * * *
 
@@ -14,21 +12,6 @@ I love ccrypt; it is easy to use and does exactly what one wants from an
 enrcyption program. Furthermore it's quite fast. It's a wonder the program
 isn't more widely known. (Jean-Yves Sireau, Hong Kong)  
 
-[More user comments...](usercomments.html)
-
-### Contents
-
-  * Description
-  * Frequently Asked Questions
-  * News
-  * Downloading and Installing
-  * Usage
-  * Emacs Support
-  * Other software related to ccrypt
-  * Support and Reporting Bugs
-  * Version
-  * Author
-  * License
 
 ### Description
 
@@ -77,139 +60,6 @@ You have three different options for installing ccrypt:
   3. **From a package**. These are for specific platforms. If you want to use one of these, you probably know how.  If you would like to ensure the accuracy of the downloaded files, you can double-check their [SHA1 sums](download/SHA1SUMS). 
 
 Source distribution:
-
-[ccrypt-1.10.tar.gz](download/ccrypt-1.10.tar.gz)
-
-Precompiled distributions:
-
-Linux (32 bit)
-
-[ccrypt-1.10.linux-i386.tar.gz](download/ccrypt-1.10.linux-i386.tar.gz)
-
-Linux (64 bit)
-
-[ccrypt-1.10.linux-x86_64.tar.gz](download/ccrypt-1.10.linux-x86_64.tar.gz)
-
-Windows 95/98/2000/NT
-
-[ccrypt-1.10.cygwin-i386.tar.gz](download/ccrypt-1.10.cygwin-i386.tar.gz)  
-[ccrypt-1.10.cygwin-i386.zip](download/ccrypt-1.10.cygwin-i386.zip)
-
-Sun Solaris (Sparc)
-
-[ccrypt-1.10.solaris-sparc.tar.gz](download/ccrypt-1.10.solaris-sparc.tar.gz)
-
-Android 4+
-
-[ccrypt-1.10.android.tar.gz](download/ccrypt-1.10.android.tar.gz)(1)
-
-Mac OS X (universal)
-
-[ccrypt-1.10.mac-univ.tar.gz](download/ccrypt-1.10.mac-univ.tar.gz)
-
-AIX
-
-[ccrypt-1.9.aix-rs6000.tar.gz](download/ccrypt-1.9.aix-rs6000.tar.gz)
-
-Linux for Alpha
-
-[ccrypt-1.7.linux-alpha.tar.gz](download/ccrypt-1.7.linux-alpha.tar.gz)
-
-Linux for AMD64
-
-[ccrypt-1.7.linux-amd64.tar.gz](download/ccrypt-1.7.linux-amd64.tar.gz)
-
-Sun Solaris (i386)
-
-[ccrypt-1.7.solaris-i386.tar.gz](download/ccrypt-1.7.solaris-i386.tar.gz)
-
-FreeBSD
-
-[ccrypt-1.7.freebsd4.6-i386.tar.gz](download/ccrypt-1.7.freebsd4.6-i386.tar.gz
-)
-
-NetBSD
-
-[ccrypt-1.7.netbsdelf-i386.tar.gz](download/ccrypt-1.7.netbsdelf-i386.tar.gz)
-
-HP-UX
-
-[ccrypt-1.7.hpux.tar.gz](download/ccrypt-1.7.hpux.tar.gz)(2)
-
-Linux for Sparc
-
-[ccrypt-1.6.linux-sparc.tar.gz](download/ccrypt-1.6.linux-sparc.tar.gz)
-
-Linux for ARM
-
-[ccrypt-1.4.linux-arm.tar.gz](download/ccrypt-1.4.linux-arm.tar.gz)
-
-Linux for Power PC
-
-[ccrypt-1.3.linux-powerpc.tar.gz](download/ccrypt-1.3.linux-powerpc.tar.gz)
-
-Packages:
-
-Debian Package (i386)
-
-[ccrypt_1.9-4_i386.deb](download/ccrypt_1.9-4_i386.deb)(3)
-
-Redhat Source RPM
-
-[ccrypt-1.9-1.src.rpm](download/ccrypt-1.9-1.src.rpm)
-
-Redhat Binary RPM (i386)
-
-[ccrypt-1.9-1.i386.rpm](download/ccrypt-1.9-1.i386.rpm)
-
-Solaris Package (Sparc)
-
-[ccrypt-1.9-sol10-sparc-local.gz](download/ccrypt-1.9-sol10-sparc-local.gz)(4)
-
-Solaris Package (i386)
-
-[ccrypt-1.9-sol10-x86-local.gz](download/ccrypt-1.9-sol10-x86-local.gz)(4)
-
-OS/2 Package
-
-[Ccrypt.1.10-os2.zip](download/Ccrypt.1.10-os2.zip)(5)
-
-SuSE Source RPM
-
-[ccrypt-1.7-1.src.rpm](download/suse/ccrypt-1.7-1.src.rpm)(6)
-
-SuSE Binary RPM (i586)
-
-[ccrypt-1.7-1.i586.rpm](download/suse/ccrypt-1.7-1.i586.rpm)(6)
-
-OpenBSD Package (i386)
-
-[ccrypt-1.7-emacs21.tgz](download/ccrypt-1.7-emacs21.tgz)(7)
-
-FreeBSD Package (i386)
-
-[ccrypt-1.3.tbz](download/ccrypt-1.3.tbz)
-
-(1) Android binaries supplied by Lester Ingber. There may be a problem with
-short options, but long options work fine. Lester Ingber and Roman Lebedev
-report that ccrypt-1.10 executables can be compiled and work in Android 4.4.2
-using C4droid and BusyBox Install Pro (No Root), both from the Google Play
-store. Android 4+ binaries will not work on Android 5+ phones. You may address
-queries to <ingber at alumni.caltech.edu>.  
-(2) HP-UX binary supplied by Simon Chung.  
-(3) For the most current version of the Debian package, see the Debian [ccrypt
-page](http://packages.debian.org/ccrypt). Debian (this includes Ubuntu) has a
-centralized package management system and users may run "apt-get install
-ccrypt" as root to install.  
-(4) Solaris Packages supplied by Steve Christensen. See
-[sunfreeware.com](http://www.sunfreeware.com/) for additional packages.  
-(5) OS/2 Package supplied by Elbert Pol.  
-(6) SuSE RPMs supplied by Harry Auschner.  
-(7) OpenBSD Package supplied by Kevin Lo.  
-
-[Previous releases...](oldreleases.html)
-
-### Usage
 
     
     
